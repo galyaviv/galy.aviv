@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CV.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="navbar">
+            <ul>
+                <!-- <a><b>Menu</b></a> -->
+                <li><a href="#objective">Objective</a></li>
+                <li><a href="#military_service">Military Service</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#volunteers">Volunteers</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <p>galyav@post.bgu.ac.il</p>
+            </ul>
+        </div>
+        <div class="name_header_container">
+            <header id="name_header">Galy Aviv's CV</header>
+        </div>
+        <div id="contact">
+            <form id="form_container">
+                <h1>Contact me!</h1>
+                <div class="form_field">
+                    <label class="form_text" for="fname">First name:</label><br>
+                    <input class="form_input" type="text" id="fname" name="fname"><br>
+                </div>
+                <div class="form_field">
+                    <label class="form_text" for="lname">Last name:</label><br>
+                    <input class="form_input" type="text" id="lname" name="lname"><br>
+                </div>
+                <div class="form_field">
+                    <label class="form_text" for="email">Email:</label><br>
+                    <input class="form_input" type="text" id="email" name="email"><br>
+                </div>
+                <label class="form_text" for="subject">Subject:</label><br><br>
+                <textarea id="subject" name="subject" placeholder="Write your message here!"></textarea><br>
+                <input id="submit_button" type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="objective_container" id="objective">
+            <h1>Objective</h1>
+            <p>
+                <i>My name is Galy Aviv and I'm a student for industrial engineering and management.<br> This summer I'm taking a course on web development at BGU.</i>
+            </p>
+            <div id="military_service" class="experience_container">
+                <h1>Military Service</h1>
+                <p>
+                    <i style="font-size: 24px;">C4I Officer</i><br>
+                    <i>Israel Defence Forces</i><br>
+                    <a>Finished my service ranked Captain.</a>
+                </p>
+                <div id="education">
+                    <h1>Education</h1>
+                    <p>
+                        <i style="font-size: 24px;">Industrial Engineering and Management</i><br>
+                        <i>Ben-Gurion University</i><br>
+                        <a>Finished my 2nd year of studies.</a>
+                    </p>
+                </div>
+                <div id="volunteers">
+                    <h1>Volunteers</h1>
+                    <p>
+                        <i style="font-size: 24px;">Youth Movement</i><br>
+                        <i>Instructor</i><br>
+                    </p>
+                </div>
+                <div id="skills">
+                    <h1>Skills</h1>
+                    <p>
+                        <i style="font-size: 24px;">Computer Science</i><br>
+                        <i>Java | Python | SQL | OOP</i><br>
+                        <i style="font-size: 24px;">Languages</i><br>
+                        <i>Hebrew - Native | English - Fluent</i><br>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
