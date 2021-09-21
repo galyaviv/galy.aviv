@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
-const sql = require("./db.js")
+const sql = require("../DB/db.js")
 const PORT = 3000;
 // parse requests of contenttype: application/json
 app.use(bodyParser.json());
@@ -23,4 +23,4 @@ app.get("/customers", function(req, res) {
         } else
             res.status(200).send(sql_result);
     });
-});
+})
